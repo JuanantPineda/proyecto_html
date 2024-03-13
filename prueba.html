@@ -1,45 +1,41 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Formulario Completo</title>
-<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
 </head>
 <body>
-<div class="contenedor">
-    <h2>Formulario Completo</h2>
-    <form id="formularioCompleto" action="#" method="post">
-        <div class="grupo-formulario">
-            <label for="nombre">Nombre:</label>
-            <input type="text" id="nombre" name="nombre" required>
+    <header>
+        <div class="container_12">
+          <div class="grid_12">
+            <h1><a href="index.html"><img src="images/logo.png" alt=""></a></h1>
+            <div id="countdown"></div>
+            <div class="clear"></div>
+            <div class="menu_block">
+              <nav>
+                <ul class="sf-menu" id="menu">
+                  <li class="current"><a href="index.html">Home</a></li>
+                  <li><a href="history.html">Historia</a></li>
+                  <li><a href="recipes.html">Recipes</a></li>
+                  <li><a href="party-planning.html">Party Planning</a></li>
+                  <li><a href="decorations.html">Decorations</a></li>
+                  <li><a href="contact.html">Contacts</a></li>
+                  <li class="submenu"><a href="#">More</a>
+                    <ul>
+                      <li><a href="#">Link 1</a></li>
+                      <li><a href="#">Link 2</a></li>
+                      <li><a href="#">Link 3</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </nav>
+              <div class="clear"></div>
+            </div>
+            <div class="clear"></div>
+          </div>
         </div>
-        <div class="grupo-formulario">
-            <label for="email">Correo Electrónico:</label>
-            <input type="email" id="email" name="email" required>
-        </div>
-        <div class="grupo-formulario">
-            <label for="telefono">Teléfono:</label>
-            <input type="tel" id="telefono" name="telefono">
-        </div>
-        <div class="grupo-formulario">
-            <label for="genero">Género:</label>
-            <select id="genero" name="genero">
-                <option value="masculino">Masculino</option>
-                <option value="femenino">Femenino</option>
-                <option value="otro">Otro</option>
-            </select>
-        </div>
-        <div class="grupo-formulario">
-            <label for="mensaje">Mensaje:</label>
-            <textarea id="mensaje" name="mensaje" rows="4"></textarea>
-        </div>
-        <div class="grupo-formulario">
-            <input type="checkbox" id="suscribir" name="suscribir">
-            <label for="suscribir">Suscribirse al boletín informativo</label>
-        </div>
-        <button type="submit">Enviar</button>
-    </form>
-</div>
+      </header>            
 </body>
 </html>

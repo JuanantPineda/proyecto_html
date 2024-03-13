@@ -626,3 +626,34 @@ footer {
 
 }
 
+/* Estilos para el menú desplegable */
+.menu_block ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fcab1c;
+	border: 1px solid #ff5d32;
+    border-top: none;
+}
+
+.menu_block ul ul li {
+    display: block;
+}
+
+.menu_block ul ul li a {
+    padding: 8px 20px;
+}
+
+.menu_block ul ul li a:hover {
+    background-color: #f0f0f0;
+}
+
+.menu_block ul li.submenu:hover > ul {
+    display: block;
+}
+
+.retro{
+	font-size: 50px;
+	padding: 15px;
+}
