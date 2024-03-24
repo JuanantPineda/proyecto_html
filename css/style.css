@@ -626,34 +626,47 @@ footer {
 
 }
 
+
 /* Estilos para el menú desplegable */
-.menu_block ul ul {
+.submenu ul {
     display: none;
     position: absolute;
     top: 100%;
     left: 0;
-    background-color: #fcab1c;
-	border: 1px solid #ff5d32;
     border-top: none;
+    z-index: 9999; /* Asegura que el menú desplegable esté encima de otros elementos */
 }
 
-.menu_block ul ul li {
+.submenu ul li {
     display: block;
 }
 
-.menu_block ul ul li a {
+.submenu ul li a {
     padding: 8px 20px;
-}
-
-.menu_block ul ul li a:hover {
-    background-color: #f0f0f0;
-}
-
-.menu_block ul li.submenu:hover > ul {
     display: block;
+    text-decoration: none;
+    color: #333; /* Color del texto del menú desplegable */
 }
 
-.retro{
-	font-size: 50px;
-	padding: 15px;
+table {
+	width: 100%;
+	border-collapse: collapse;
+	border: 3px solid white;
+}
+
+th, td {
+	border: 3px solid white;
+	padding: 10px;
+	text-align: center;
+	font-size: 15px;
+}
+
+th {
+	border: 3px solid white;
+	text-align: center;
+
+}
+
+tr{
+	border: 3px solid white;
 }

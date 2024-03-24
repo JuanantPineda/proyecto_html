@@ -22,25 +22,26 @@
 <header>
   <div class="container_12">
     <div class="grid_12">
-      <h1><a href="index.html"><img src="images/logo.png" alt=""></a></h1>
+      <h1 class="retro">Retro Pineda Games</h1>
       <div id="countdown"></div>
       <div class="clear"></div>
       <div class="menu_block">
         <nav>
-          <ul class="sf-menu">
-            <li><a href="index.html">Home</a></li>
+          <ul class="sf-menu" id="menu">
+            <li class="current"><a href="index.html">Home</a></li>
             <li><a href="history.html">Historia</a></li>
-            <li><a href="recipes.html">Recipes</a></li>
             <li><a href="party-planning.html">Party Planning</a></li>
-            <li class="current"><a href="decorations.html">Decorations</a></li>
+            <li><a href="decorations.html">Decorations</a></li>
             <li><a href="contact.html">Contacts</a></li>
+            <li class="submenu"><a href="consolas.html">Recipes</a>
+              <ul>
+                <li><a href="#">Recipe 1</a></li>
+                <li><a href="#">Recipe 2</a></li>
+                <li><a href="#">Recipe 3</a></li>
+              </ul>
+            </li>
           </ul>
         </nav>
-        <form id="search" action="#" method="GET">
-          <input type="text" name="s">
-          <a onClick="document.getElementById('search').submit()"></a>
-          <div class="clear"></div>
-        </form>
         <div class="clear"></div>
       </div>
       <div class="clear"></div>
